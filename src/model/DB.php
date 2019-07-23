@@ -4,7 +4,7 @@ namespace Geeks\model;
 class DB
 {
   private $host="localhost";
-  private $db="cenaconasesinado";
+  private $db="10k-aldaia";
   private $user="root";
   private $pass;
   public $conexion=null;
