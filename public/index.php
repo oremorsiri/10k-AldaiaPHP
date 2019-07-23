@@ -46,6 +46,26 @@ $error=null;
                                     <input type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Introduce tu email">
                                 </div>
                                 <div class="form-group">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nameHelp" placeholder="Introduce tu nombre">
+                                </div>
+                                <div class="surname">
+                                    <label for="surname">Apellido</label>
+                                    <input type="text" class="form-control" id="surname" name="surname" aria-describedby="surnameHelp" placeholder="Introduce tu apellido">
+                                </div>
+                                <div class="form-group">
+                                    <label for="gender">Género</label>
+                                    <select class="form-control" id="gender">
+                                    <option>Hombre</option>
+                                    <option>Mujer</option>
+                                    <option>Ninguna de las anteriores</option>
+                                    </select>
+                                </div>
+                                <div class="age">
+                                    <label for="age">Edad</label>
+                                    <input type="text" class="form-control" id="age" name="age" aria-describedby="ageHelp" placeholder="Introduce tu edad">
+                                </div>
+                                <div class="form-group">
                                     <label for="passwordField">Password</label>
                                     <input type="password" class="form-control" id="passwordField" name="passwordField" placeholder="Password">
                                 </div>
