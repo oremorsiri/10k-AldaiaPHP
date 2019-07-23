@@ -2,10 +2,7 @@
 .navbar {
     background-color: grey;
     display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+    justify-content: flex-start;
 }
 
 .navbar a {
@@ -71,5 +68,38 @@
 
     .togglearea {
         display: flex;
+    }
+}
+
+/* CABECERA */
+.header {
+    justify-content: space-evenly;
+    display: flex;
+    color: antiquewhite;
+    background: linear-gradient(135deg, rgba(3,143,96,1) 0%, rgba(42,168,124,1) 44%, rgba(0,61,107,1) 100%);
+}
+
+img .leftSection {
+    align-self: center;
+}
+
+.header .rightSection {
+    align-self: center;
+}
+
+@media screen and (max-width: 769px) {
+    .header {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .header .leftSection {
+        padding: 0;
+        align-self: center;
+    }
+
+    .header .rightSection {
+        padding: inherit;
+        margin-top: 0;
     }
 }

@@ -31,6 +31,7 @@ $error=null;
 <body>
     <?php
         include __DIR__.'/../assets/menu.php';
+        include __DIR__.'/../assets/cabecera.php';
     ?> 
     <div class="container pagina">
         <div class="row justify-content-center">
